@@ -84,6 +84,9 @@ def webhook():
 
     data = request.get_json()
 
+    if data['name'] == "bot_part2":
+        return "ok", 200
+
     # test message
     msg: str = f"You said: {data['text']}"
     bot.send_message(msg)
