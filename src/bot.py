@@ -28,7 +28,7 @@ class Bot():
         return r
 
 # i think this will eventually need to take in an HTTP request and parse it to determine the function
-def xmain():
+def main():
     bot_id: str = os.environ["BOT_ID"]
     test: str = os.environ["TEST"]
 
@@ -42,3 +42,5 @@ def xmain():
 
     # eventually need logic to determine what this should do
 
+if __name__ == "__main__":
+    main()
