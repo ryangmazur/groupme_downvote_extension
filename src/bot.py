@@ -35,10 +35,10 @@ def main():
     bot: Bot = Bot(bot_id)
     print("testing")
 
-    if test:
-        # do stuff here if we want to test
-        print("test")
-        bot.send_message("Test Message")
+    # if test:
+    #     # do stuff here if we want to test
+    #     print("test")
+    #     bot.send_message("Test Message")
 
     # eventually need logic to determine what this should do
 
