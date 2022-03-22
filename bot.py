@@ -74,6 +74,7 @@ bot: Bot = Bot(BOT_ID)
 
 if DEBUG:
     print("Initialized all config values")
+    bot.send_message("Starting up")
 
 
 @app.route('/', methods=['POST'])
