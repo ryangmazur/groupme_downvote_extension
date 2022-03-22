@@ -1,1 +1,1 @@
-web: python3 -u src/bot.py
+worker: python3 -u src/bot.py
