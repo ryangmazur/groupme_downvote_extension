@@ -85,5 +85,5 @@ def webhook():
     data = request.get_json()
 
     # test message
-    msg: str = f"You said: {data['msg']}"
+    msg: str = f"You said: {data['text']}"
     bot.send_message(msg)
