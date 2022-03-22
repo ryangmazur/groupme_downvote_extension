@@ -66,7 +66,7 @@ class Bot():
 
 app = Flask(__name__)
 
-DEBUG: str = (True if os.environ('BOT_DEBUG') == 'True' else False)
+DEBUG: str = (True if os.environ['BOT_DEBUG'] == 'True' else False)
 
 BOT_ID: str = os.environ["BOT_ID"]
 POST_TO: str = 'https://api.groupme.com/v3/bots/post'
