@@ -42,8 +42,8 @@ def main():
 
     # eventually need logic to determine what this should do
 
-    while True:
-        print("more tests")
+    # while True:
+    #     print("more tests")
 
 if __name__ == "__main__":
     main()
