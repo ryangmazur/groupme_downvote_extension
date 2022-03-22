@@ -41,6 +41,7 @@ def main():
     #     bot.send_message("Test Message")
 
     # eventually need logic to determine what this should do
+    # idk
 
     num: int = 1
     while True:
