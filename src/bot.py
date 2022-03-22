@@ -33,6 +33,7 @@ def xmain():
     test: str = os.environ["TEST"]
 
     bot: Bot = Bot(bot_id)
+    print("testing")
 
     if test:
         # do stuff here if we want to test
