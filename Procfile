@@ -1,1 +1,1 @@
-web: python3 -u src/bot.py
+web: gunicorn src/bot:app
