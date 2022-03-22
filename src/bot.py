@@ -28,7 +28,7 @@ class Bot():
         return r
 
 # i think this will eventually need to take in an HTTP request and parse it to determine the function
-def bot_main(function):
+def main():
     bot_id: str = os.environ["BOT_ID"]
     test: str = os.environ["TEST"]
 
