@@ -2,6 +2,7 @@ import os
 import requests as req
 import json
 from typing import List
+import time
 
 class Bot():
     # Creates a GroupMe Bot to send message
@@ -33,7 +34,6 @@ def main():
     test: str = os.environ["TEST"]
 
     bot: Bot = Bot(bot_id)
-    print("testing")
 
     # if test:
     #     # do stuff here if we want to test
@@ -42,8 +42,12 @@ def main():
 
     # eventually need logic to determine what this should do
 
-    # while True:
-    #     print("more tests")
+    num: int = 1
+    while True:
+        bot.send_message(f"Test Message: {num}")
+        num += 1
+        time.sleep(30.0)
+
 
 if __name__ == "__main__":
     main()
