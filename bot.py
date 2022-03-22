@@ -84,7 +84,7 @@ def webhook():
 
     data = request.get_json()
 
-    if data['name'] == "bot_part2" or data['name'][0] != '!':
+    if data['name'] == "bot_part2" or data['text'][0] != '!':
         return "ok", 200
 
     # test message
